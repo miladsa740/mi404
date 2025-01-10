@@ -1,8 +1,8 @@
 import requests
 
 def fetch_servers():
-    # URLها
-    url1 = "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity"
+    # لینک‌های جدید
+    url1 = "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt"
     url2 = "https://raw.githubusercontent.com/miladsa740/Free/main/Free"
 
     # دریافت داده‌ها
