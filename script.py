@@ -31,7 +31,7 @@ def fetch_servers():
     if response1.status_code == 200 and response2.status_code == 200:
         # پردازش سرورهای لینک اول
         servers1 = response1.text.strip().splitlines()
-        selected_servers1 = []
+        selected_servers = []
         
         for server in servers1:
             # فرض می‌کنیم آدرس سرور در فرمت IP:Port است
@@ -39,20 +39,17 @@ def fetch_servers():
                 ip = server.split(":")[0]
                 ping = check_ping(ip)
                 if ping is not None and ping < 500:  # فیلتر پینگ زیر 500 میلی‌ثانیه
-                    selected_servers1.append(server)
-            if len(selected_servers1) == 20:  # محدود به 20 سرور
+                    selected_servers.append(f"{server} | Ping: {ping}ms")
+            if len(selected_servers) == 20:  # محدود به 20 سرور
                 break
 
-        # پردازش سرورهای لینک دوم
-        servers2 = response2.text.strip().splitlines()
-
-        # ترکیب سرورها
-        all_servers = selected_servers1 + servers2
+        # ترکیب سرورها (فقط سرورهای انتخاب‌شده)
+        all_servers = selected_servers
 
         # ذخیره سرورها در فایل
         with open("servers.txt", "w") as f:
             f.write("\n".join(all_servers))
-        print("Servers fetched and saved successfully.")
+        print("Servers with valid ping fetched and saved successfully.")
     else:
         print("Error fetching server data.")
 
