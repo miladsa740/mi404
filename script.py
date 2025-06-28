@@ -1,29 +1,36 @@
 import requests
 
 def fetch_servers():
-    # لینک‌های جدید
     url1 = "https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY.txt"
     url2 = "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/mix"
 
-    # دریافت داده‌ها
-    response1 = requests.get(url1)
-    response2 = requests.get(url2)
+    try:
+        response1 = requests.get(url1, timeout=10)
+        response1.raise_for_status()  # اگر status code غیر از 200 باشه، خطا می‌ندازه
+    except requests.RequestException as e:
+        print(f"خطا در دریافت داده از url1:\n{e}")
+        return
 
-    # بررسی وضعیت
-    if response1.status_code == 200 and response2.status_code == 200:
-        # پردازش داده‌ها
-        servers1 = response1.text.strip().splitlines()[:50]  # 50 سرور اول
-        servers2 = response2.text.strip().splitlines()[:50]  # 50 سرور دوم
+    try:
+        response2 = requests.get(url2, timeout=10)
+        response2.raise_for_status()
+    except requests.RequestException as e:
+        print(f"خطا در دریافت داده از url2:\n{e}")
+        return
 
-        # ترکیب داده‌ها
+    try:
+        servers1 = response1.text.strip().splitlines()[:50]
+        servers2 = response2.text.strip().splitlines()[:50]
+
         all_servers = servers1 + servers2
 
-        # ذخیره به فایل
         with open("servers.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(all_servers))
-        print("Servers fetched and saved successfully.")
-    else:
-        print("Error fetching server data.")
+
+        print("✅ سرورها با موفقیت دریافت و ذخیره شدند.")
+
+    except Exception as e:
+        print(f"❌ خطایی در پردازش یا ذخیره‌سازی داده‌ها رخ داد:\n{e}")
 
 if __name__ == "__main__":
     fetch_servers()
