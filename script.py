@@ -2,8 +2,8 @@ import requests
 
 def fetch_servers():
     # لینک‌های جدید
-    url1 = "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt"
-    url2 = "https://raw.githubusercontent.com/miladsa740/Free/main/Free"
+    url1 = "https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY.txt"
+    url2 = "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/mix"
 
     # دریافت داده‌ها
     response1 = requests.get(url1)
@@ -13,7 +13,7 @@ def fetch_servers():
     if response1.status_code == 200 and response2.status_code == 200:
         # پردازش داده‌ها
         servers1 = response1.text.strip().splitlines()[:50]  # 50 سرور اول
-        servers2 = response2.text.strip().splitlines()        # همه سرورهای لینک دوم
+        servers1 = response1.text.strip().splitlines()[:50]  # 50 سرور اول
 
         # ترکیب داده‌ها
         all_servers = servers1 + servers2
