@@ -1,7 +1,7 @@
 import requests
 
 def fetch_servers():
-    url1 = "https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY.txt"
+    url1 = "https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt"
     url2 = "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/mix"
 
     try:
