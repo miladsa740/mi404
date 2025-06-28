@@ -13,13 +13,13 @@ def fetch_servers():
     if response1.status_code == 200 and response2.status_code == 200:
         # پردازش داده‌ها
         servers1 = response1.text.strip().splitlines()[:50]  # 50 سرور اول
-        servers1 = response1.text.strip().splitlines()[:50]  # 50 سرور اول
+        servers2 = response2.text.strip().splitlines()[:50]  # 50 سرور دوم
 
         # ترکیب داده‌ها
         all_servers = servers1 + servers2
 
         # ذخیره به فایل
-        with open("servers.txt", "w") as f:
+        with open("servers.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(all_servers))
         print("Servers fetched and saved successfully.")
     else:
