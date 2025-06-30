@@ -1,22 +1,21 @@
+vless://c23bab9e-a746-46a9-94eb-d1a39ab5e55a@46.38.136.226:30571?security=none&type=tcp&host=cloudflare.com&path=/&headerType=http#🇳🇱[openproxylist.com] vless-NL
+vless://904f8ffa-4652-4076-8f2f-e586807840ec@172.111.146.64:80?type=ws&path=/vless/#🇯🇵[openproxylist.com] vless-JP
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.231.218:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://46a017e9-d127-46a5-8578-90fa3e66f2dc@77.110.121.191:58972?security=none&type=ws&host=77.110.121.191&path=/hdbdh#🇸🇪[openproxylist.com] vless-SE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443#🇬🇧[openproxylist.com] ss-GB
-vless://d843b700-0e0d-5ad9-72d9-46ced5785cd1@5.182.46.64:2054?security=none&type=tcp&host=snapp.taxi&headerType=http#🇹🇷[openproxylist.com] vless-TR
+vless://d843b700-0e0d-5ad9-72d9-46ced5785cd1@212.33.201.187:2054?security=none&type=tcp&host=snapp.taxi&headerType=http#🇹🇷[openproxylist.com] vless-TR
 vless://a4fb0780-e6d5-4e5e-b22d-d431db4aa53b@172.234.31.209:2321?type=tcp#🇺🇸[openproxylist.com] vless-US
 vless://fdfc88b6-d0af-47ca-acbc-a875c81c35ac@45.118.133.29:2321?type=tcp#🇸🇬[openproxylist.com] vless-SG
 vless://dc58f214-4227-4f58-8090-cbcedf1adeba@62.212.70.108:52928?security=none&type=tcp&host=canva.com&headerType=http#🇳🇱[openproxylist.com] vless-NL
 vless://aab23f8b-9963-446a-b29c-9bb0ecdb16b6@172.234.31.188:2321?type=tcp#🇺🇸[openproxylist.com] vless-US
-vless://80a7501b-8d1b-4e9d-bea5-903fb1053274@45.67.32.147:443?security=tls&sni=torless.duckdns.org&type=ws&host=torless.duckdns.org&path=/getupdates&fp=random#🇦🇶[openproxylist.com] vless-AQ
 vless://7a4c8b45-e520-4689-b82b-6884894160b5@91.107.157.118:8080?type=tcp&host=speedtest.net&headerType=http#🇩🇪[openproxylist.com] vless-DE
-vless://c75bc57e-6585-4dcb-90a5-dfc46f049b74@217.114.40.216:9435?security=none&type=tcp&host=fast.com&headerType=http#🇹🇷[openproxylist.com] vless-TR
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.192.185:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.171.12:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://febf7810-0d6d-4f39-878c-8a2da6fdbcde@157.173.127.240:443?security=reality&encryption=none&pbk=7PPRFCOZ9VVO3Df5-Q6P9WwvjQa13AbSlpaJQUTHPhI&headerType=&fp=chrome&spx=/&type=tcp&sni=analytics.google.com&sid=522d25#🇩🇪[openproxylist.com] vless-DE
 trojan://vpn@45.82.14.144:2025?security=none&type=ws&host=dns.google.com&path=%2F#🇰🇿[openproxylist.com] trojan-KZ
 trojan://telegram-id-directvpn@13.37.59.91:22223?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http/1.1#🇫🇷[openproxylist.com] trojan-FR
-vless://ea286109-d20f-415e-849e-4af20ab04b65@135.148.152.111:443?security=tls&sni=147135001198.sec22org.com&type=tcp&fp=chrome#🇺🇸[openproxylist.com] vless-US
-vless://54694a33-a8dc-47dd-bc38-acd3971e0055@135.148.74.145:443?security=tls&sni=147135004002.sec20org.com&type=tcp#🇺🇸[openproxylist.com] vless-US
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.92.95:51615?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
+vless://ea286109-d20f-415e-849e-4af20ab04b65@135.148.152.103:443?security=tls&sni=147135001195.sec22org.com&type=tcp&alpn=h2%2Chttp%2F1.1#🇺🇸[openproxylist.com] vless-US
+vless://54694a33-a8dc-47dd-bc38-acd3971e0055@135.148.74.159:443?security=tls&sni=147135004002.sec20org.com&type=tcp&fp=chrome&alpn=h2,http/1.1#🇺🇸[openproxylist.com] vless-US
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.230:51615?security=none&type=tcp&host=zula.ir&headerType=http#🇮🇷[openproxylist.com] vless-IR
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.194.54:443?security=none&type=tcp&host=zula.ir&headerType=http#🇮🇷[openproxylist.com] vless-IR
 vless://600eae54-5014-40a2-99f3-215ff340c26d@109.122.249.156:57107?security=none&type=tcp&host=speedtest.net&headerType=http#🇩🇪[openproxylist.com] vless-DE
@@ -25,7 +24,7 @@ vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.192.155:443?type=tcp&host=zul
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.145.219:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.193.96:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.210:443?security=none&type=tcp&host=account.zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
-vless://dbc9b263-f858-44c1-af4f-4e4ee1723490@193.151.137.17:4411?security=none&type=tcp&host=varzesh3.com&headerType=http#🇩🇪[openproxylist.com] vless-DE
+vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.150.74:51615?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.205.56:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.205.121:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://09efd8b5-c69c-464b-8fe9-74411964f3e9@95.211.45.91:1471?security=none&type=tcp&host=fararu.com&headerType=http#🇩🇪[openproxylist.com] vless-DE
@@ -40,7 +39,7 @@ vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.47:443?security=none&encr
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.13:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.203.193:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🇩🇪[openproxylist.com] vless-DE
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.14:51615?security=none&type=tcp&host=zula.ir&headerType=http#🇮🇷[openproxylist.com] vless-IR
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.181.193:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🇩🇪[openproxylist.com] vless-DE
+vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.181.193:51615?security=none&type=tcp&host=zula.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://eb9ac797-4a77-4f3f-bd60-0baa69b47e92@170.114.45.6:443?security=tls&sni=opensignal.awsglobalaccelerator.online&type=ws&host=opensignal.awsglobalaccelerator.online&path=%2Fdanuwa&fp=chrome#🇸🇬[openproxylist.com] vless-SG
 vless://2f33cc6f-c80a-4c19-ac4f-66547bfdd33d@185.232.152.148:1501?security=none&type=tcp&host=varzesh3.com&headerType=http#🇹🇷[openproxylist.com] vless-TR
 vless://62237966-b2c6-4bf9-a269-3717e1773c99@38.180.105.218:9091?type=tcp&host=tgju.org&headerType=http#🇹🇷[openproxylist.com] vless-TR
@@ -48,52 +47,53 @@ vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.159.125:443?security=none&typ
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.203.69:51615?type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vmess://eyJhZGQiOiI0NS4zOS4xOTkuMTA1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIxNTAwMi5rdWFpeWluMDIudG9wIiwiaWQiOiI5ZjUxMzE2MS01NzZiLTNhYmMtOWM5OC0wNmU1MmMzYTI0YzYiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiXC8iLCJwb3J0IjoiMTUwMDIiLCJwcyI6Ilx1ZDgzY1x1ZGRmN1x1ZDgzY1x1ZGRmYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtUlUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 vmess://eyJhZGQiOiI1Ny4xMjkuMTMyLjIyMyIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiYTI1Y2JmMTEtMjkwOC00YTFiLWEzYTgtOWE1NzE3NzdkY2EzIiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzc1wvIiwicG9ydCI6ODAsInBzIjoiXHVkODNjXHVkZGVjXHVkODNjXHVkZGU3W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1HQiIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIn0=
+vless://5db3a167-1a04-4f2c-ab9b-771c24b5cf1d@2.189.117.62:21483?security=none&type=tcp&host=www.speedtest.net&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#⚠️%20FREE%20TO%20USE!
-vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#🔄%20LATEST-UPDATE%20📅%20Mon-09-TIR-1404 🕑 17:19
-vmess://eyJhZGQiOiIxNTEuMTAxLjMuOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibG9naW4uc2luYWJhbmsuaXIiLCJpZCI6IjFmN2UyOTQ3LWM0YTUtNGUzYy1iMjg0LTc3N2ZmNzNhMDg2ZSIsIm5ldCI6InhodHRwIiwicGF0aCI6IlwvIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRkOTRhaHdhemlnYW1pbmdzaG9wIFx1ZDgzZFx1ZGQxMyBWTS1YSFRUUC1OXC9BIFx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOCBVUyA1bXMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6ImF1dG8iLCJ2IjoiMiJ9
+vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#🔄%20LATEST-UPDATE%20📅%20Mon-09-TIR-1404 🕑 19:22
+vmess://eyJhZGQiOiIxNTEuMTAxLjMuOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibG9naW4uc2luYWJhbmsuaXIiLCJpZCI6IjFmN2UyOTQ3LWM0YTUtNGUzYy1iMjg0LTc3N2ZmNzNhMDg2ZSIsIm5ldCI6InhodHRwIiwicGF0aCI6IlwvIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRkOTRhaHdhemlnYW1pbmdzaG9wIFx1ZDgzZFx1ZGQxMyBWTS1YSFRUUC1OXC9BIFx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOCBVUyA4bXMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6ImF1dG8iLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiIzMS4xODYuODYuNDciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMzAxZmFkNjctMTI4OC00N2E5LWIzY2EtMjJiODIzZTRlNzg5IiwibmV0Ijoid3MiLCJwYXRoIjoiXC92bWVzcy1hcmdvP2VkPTIwNDgiLCJwb3J0IjoiMjAzMyIsInBzIjoiXHVkODNjXHVkZDk0YWh3YXppZ2FtaW5nc2hvcCBcdWQ4M2RcdWRkMTMgVk0tV1MtTlwvQSBcdWQ4M2NcdWRkZjVcdWQ4M2NcdWRkZjEgUEwgZG93biIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
-vless://77c191ed-9e44-4255-ae49-debab56c9563@151.101.3.8:80?path=%2F&security=&encryption=none&host=befreewithus.com&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
-vless://54cd3a77-1374-41d0-8ba4-ecd7f9a1d97c@speedtest.net:80?path=%2F&security=&encryption=none&host=befreewithus.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%20151ms
-vless://4dc21709-acf8-4b95-9857-cae726342929@151.101.3.8:80?path=%2F&security=&encryption=none&host=befreewithus.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
-vless://4dc21709-acf8-4b95-9857-cae726342929@151.101.3.8:80?path=%2F&security=&encryption=none&host=befreewithus.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
-vless://30678ab8-5d17-464e-8820-fc1b1dfe5f7b@iza5.lalash.ir:80?mode=auto&path=%2F&security=&encryption=none&host=reza-aliyari722.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%20237ms
+vless://77c191ed-9e44-4255-ae49-debab56c9563@151.101.3.8:80?path=%2F&security=&encryption=none&host=befreewithus.com&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%208ms
+vless://54cd3a77-1374-41d0-8ba4-ecd7f9a1d97c@speedtest.net:80?path=%2F&security=&encryption=none&host=befreewithus.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2062ms
+vless://4dc21709-acf8-4b95-9857-cae726342929@151.101.3.8:80?path=%2F&security=&encryption=none&host=befreewithus.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%209ms
+vless://4dc21709-acf8-4b95-9857-cae726342929@151.101.3.8:80?path=%2F&security=&encryption=none&host=befreewithus.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%208ms
+vless://30678ab8-5d17-464e-8820-fc1b1dfe5f7b@iza5.lalash.ir:80?mode=auto&path=%2F&security=&encryption=none&host=reza-aliyari722.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%20862ms
 vless://9da21010-6025-430a-9ce9-6096673d86d1@x3.snaapppfree.com:1360?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇮🇷%20IR%20down
-vless://5b0e1347-1e9b-4b83-a27b-468e3dafb69b@2sudo.winapp3.ir:80?mode=auto&path=%2F&security=&encryption=none&host=fn5.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%20249ms
-vless://d2b1da5b-7f0d-4004-923f-7eadc7a69b74@iza3.lalash.ir:80?mode=auto&path=%2F&security=none&encryption=none&host=reza-aliyari72-amd.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%20225ms
-vless://30678ab8-5d17-464e-8820-fc1b1dfe5f7b@iza5.lalash.ir:80?mode=auto&path=%2F&security=&encryption=none&host=reza-aliyari722.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%20228ms
-vless://49abbd48-f69f-446c-9cc4-7bb3ba940b6f@speedtest.net:80?mode=auto&path=%2F&security=&encryption=none&host=turboo-server-just2.co.ir&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%206ms
-vless://e9b14780-abea-464a-b271-d8482a217ecd@151.101.3.8:80?path=%2Fdownload&security=&encryption=none&host=speedfastly.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
-vless://1eadfa29-0bd9-4f84-8dca-436abe3deafb@speedtest.net:80?type=ws&host=befreewithus.net&path=%2F&security=none#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%206ms
-vless://1eadfa29-0bd9-4f84-8dca-436abe3deafb@speedtest.net:80?type=ws&host=befreewithus.net&path=%2F&security=none#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%206ms
-vless://b5e0289d-1bb7-4c5b-f850-016298066cf8@media.samagazine.ir:8080?security=none&encryption=none&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇮🇷%20IR%20357ms
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2014ms
-vless://7395770b-84f0-4b1c-b67c-73bcc27b6431@104.17.147.22:80?path=%2F02LwlXufahR82S1t%3Fed%3D2560&security=none&encryption=none&host=s1.s11qq.workers.dev&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
+vless://5b0e1347-1e9b-4b83-a27b-468e3dafb69b@2sudo.winapp3.ir:80?mode=auto&path=%2F&security=&encryption=none&host=fn5.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%20285ms
+vless://d2b1da5b-7f0d-4004-923f-7eadc7a69b74@iza3.lalash.ir:80?mode=auto&path=%2F&security=none&encryption=none&host=reza-aliyari72-amd.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%2030ms
+vless://30678ab8-5d17-464e-8820-fc1b1dfe5f7b@iza5.lalash.ir:80?mode=auto&path=%2F&security=&encryption=none&host=reza-aliyari722.global.ssl.fastly.net&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%20585ms
+vless://49abbd48-f69f-446c-9cc4-7bb3ba940b6f@speedtest.net:80?mode=auto&path=%2F&security=&encryption=none&host=turboo-server-just2.co.ir&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20🇺🇸%20US%209ms
+vless://e9b14780-abea-464a-b271-d8482a217ecd@151.101.3.8:80?path=%2Fdownload&security=&encryption=none&host=speedfastly.net&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%208ms
+vless://1eadfa29-0bd9-4f84-8dca-436abe3deafb@speedtest.net:80?type=ws&host=befreewithus.net&path=%2F&security=none#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%209ms
+vless://1eadfa29-0bd9-4f84-8dca-436abe3deafb@speedtest.net:80?type=ws&host=befreewithus.net&path=%2F&security=none#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%209ms
+vless://b5e0289d-1bb7-4c5b-f850-016298066cf8@media.samagazine.ir:8080?security=none&encryption=none&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇮🇷%20IR%20645ms
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2035ms
+vless://7395770b-84f0-4b1c-b67c-73bcc27b6431@104.17.147.22:80?path=%2F02LwlXufahR82S1t%3Fed%3D2560&security=none&encryption=none&host=s1.s11qq.workers.dev&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2016ms
 vless://a17786f2-7b57-489d-b797-9f4b0e0db08a@91.99.174.198:2089?security=reality&encryption=none&pbk=bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg&headerType=none&fp=firefox&type=tcp&sni=refersion.com&sid=e3c5c005cae07eb8#🆔ahwazigamingshop%20🔒%20VL-TCP-%20🇩🇪%20DE%20down
-vless://8960c969-eebb-4b5a-b480-4662e51893ca@mtn.ivy-net.ir:8080?path=%2F&security=none&encryption=none&host=okamideoijwqomqwedmqweodimpqo.okatestoka.ir&type=httpupgrade#🆔ahwazigamingshop%20🔓%20VL-HTTPUPGRADE-N/A%20🇺🇸%20US%20234ms
+vless://8960c969-eebb-4b5a-b480-4662e51893ca@mtn.ivy-net.ir:8080?path=%2F&security=none&encryption=none&host=okamideoijwqomqwedmqweodimpqo.okatestoka.ir&type=httpupgrade#🆔ahwazigamingshop%20🔓%20VL-HTTPUPGRADE-N/A%20🇺🇸%20US%2029ms
 vless://a17786f2-7b57-489d-b797-9f4b0e0db08a@91.99.174.198:2089?security=reality&encryption=none&pbk=bvEBes1y2n6327dEgJyZTR6Xz_EuyfLdkEX7DxWGFFg&headerType=none&fp=firefox&type=tcp&sni=refersion.com&sid=e3c5c005cae07eb8#🆔ahwazigamingshop%20🔒%20VL-TCP-%20🇩🇪%20DE%20down
-vless://7395770b-84f0-4b1c-b67c-73bcc27b6431@104.17.147.22:80?path=%2F02LwlXufahR82S1t%3Fed%3D2560&security=none&encryption=none&host=s1.s11qq.workers.dev&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2015ms
+vless://7395770b-84f0-4b1c-b67c-73bcc27b6431@104.17.147.22:80?path=%2F02LwlXufahR82S1t%3Fed%3D2560&security=none&encryption=none&host=s1.s11qq.workers.dev&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2016ms
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2032ms
 vless://cacaabb-caba-abca-dabc-cbacacacbbab@127.0.0.1:8080?security=tls&type=tcp#🆔ahwazigamingshop%20🔒%20VL-TCP-N/A%20❔%20XX%20down
-vless://4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5@www.speedtest.net:443?mode=stream-one&path=%2Ftas&security=tls&alpn=h2&encryption=none&host=mahsa.tas-bazi.com&fp=firefox&type=xhttp&sni=mahsa.tas-bazi.com#🆔ahwazigamingshop%20🔒%20VL-XHTTP-N/A%20🇺🇸%20US%2014ms
-vless://0c2093a4-6250-42c8-9808-cb9138bc9881@SvnTeam.fast.hosting-ip.com:80?security=none&type=ws&headerType=&path=%2F%40SvnProBot%3Fed%3D2560&host=shad.ir#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2020ms
+vless://4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5@www.speedtest.net:443?mode=stream-one&path=%2Ftas&security=tls&alpn=h2&encryption=none&host=mahsa.tas-bazi.com&fp=firefox&type=xhttp&sni=mahsa.tas-bazi.com#🆔ahwazigamingshop%20🔒%20VL-XHTTP-N/A%20🇺🇸%20US%2035ms
+vless://0c2093a4-6250-42c8-9808-cb9138bc9881@SvnTeam.fast.hosting-ip.com:80?security=none&type=ws&headerType=&path=%2F%40SvnProBot%3Fed%3D2560&host=shad.ir#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2043ms
 vless://aecb1f00-d8c8-4fe8-8a54-23045ff9b955@webbbb.grizzlyshoppp.shop:6050?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇮🇷%20IR%20down
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@www.speedtest.net:80?path=%2FTelegram%40Config_Rayegan%2F%3Fed%3D2560&security=none&encryption=none&host=mail.ski1plag.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%207ms
-vless://a61d2d34-b60c-4014-95f9-1208dc03b49a@marzban56.boshrachoice.ir:8443?security=&type=tcp&path=%2F&headerType=http&host=www.speedtest.net&encryption=none#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20319ms
+vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@www.speedtest.net:80?path=%2FTelegram%40Config_Rayegan%2F%3Fed%3D2560&security=none&encryption=none&host=mail.ski1plag.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2028ms
+vless://a61d2d34-b60c-4014-95f9-1208dc03b49a@marzban56.boshrachoice.ir:8443?security=&type=tcp&path=%2F&headerType=http&host=www.speedtest.net&encryption=none#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20467ms
 vless://5dc80f12-f28f-4325-98d3-54130b068752@hub.document.lat:80?mode=auto&path=%2F%3Fed%3D2560&security=none&encryption=none&host=thkhlppnb-name.global.ssl.fastly.net.&type=xhttp#🆔ahwazigamingshop%20🔓%20VL-XHTTP-N/A%20❔%20XX%20down
 vless://aecb1f00-d8c8-4fe8-8a54-23045ff9b955@webbbb.grizzlyshoppp.shop:6050?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇮🇷%20IR%20down
-vless://92f481b6-ad92-43e4-a683-2bb0aeaa9846@104.17.209.145:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=dw.alibichareh.dpdns.org&fp=random&type=ws&sni=dw.alibichareh.dpdns.org#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%206ms
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
-vless://dfdf1c0a-5e52-4746-88bd-19d4e4ac7853@172.67.78.196:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=tannaz.juveitaly.dpdns.org&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%206ms
-vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=di.dibdibini.dpdns.org&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%205ms
+vless://92f481b6-ad92-43e4-a683-2bb0aeaa9846@104.17.209.145:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=dw.alibichareh.dpdns.org&fp=random&type=ws&sni=dw.alibichareh.dpdns.org#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2016ms
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2016ms
+vless://dfdf1c0a-5e52-4746-88bd-19d4e4ac7853@172.67.78.196:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=tannaz.juveitaly.dpdns.org&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%2013ms
+vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=di.dibdibini.dpdns.org&type=ws#🆔ahwazigamingshop%20🔓%20VL-WS-N/A%20🇺🇸%20US%209ms
 vless://112e4e31-1cab-446c-8be4-c416f3b5470b@ir8.boilersforpellets.com:443?path=%2F&security=tls&encryption=none&host=ir8.boilersforpellets.com&type=ws&sni=ir8.boilersforpellets.com#🆔ahwazigamingshop%20🔒%20VL-WS-N/A%20🇮🇷%20IR%20down
-vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?security=none&encryption=none&host=Fast.com&headerType=http&fp=chrome&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇮🇷%20IR%20231ms
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.210:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20103ms
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.202.155:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20102ms
+vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?security=none&encryption=none&host=Fast.com&headerType=http&fp=chrome&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇮🇷%20IR%20down
+vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.210:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20155ms
+vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.202.155:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🆔ahwazigamingshop%20🔓%20VL-TCP-N/A%20🇩🇪%20DE%20down
 trojan://3bcd9e33-8377-4b32-af33-217158577ff3@103.211.32.110:443?security=tls&sni=kdlsupport.zendesk.com&type=tcp#🆔ahwazigamingshop%20🔒%20TR-TCP-N/A%20🇭🇰%20HK%20down
-trojan://89f84d5e-4170-4c64-bc78-ac99953b103a@5.83.221.31:50010#🆔ahwazigamingshop%20🔓%20TR--N/A%20🇭🇰%20HK%20218ms
-trojan://Aimer@52.32.90.142:80?security=tls&type=ws&sni=ngepx.ambercc.filegear-sg.me&host=ngepx.ambercc.filegear-sg.me#🆔ahwazigamingshop%20🔒%20TR-WS-N/A%20🇺🇸%20US%2082ms
-trojan://Aimer@162.159.38.101:2096?security=tls&type=tcp&sni=ngepo.ambercc.filegear-sg.me#🆔ahwazigamingshop%20🔒%20TR-TCP-N/A%20🇺🇸%20US%2027ms
-trojan://Aimer@146.56.155.102:20003?security=tls&type=tcp&sni=ngepo.ambercc.filegear-sg.me#🆔ahwazigamingshop%20🔒%20TR-TCP-N/A%20🇰🇷%20KR%20198ms
+trojan://89f84d5e-4170-4c64-bc78-ac99953b103a@5.83.221.31:50010#🆔ahwazigamingshop%20🔓%20TR--N/A%20🇭🇰%20HK%20159ms
+trojan://Aimer@52.32.90.142:80?security=tls&type=ws&sni=ngepx.ambercc.filegear-sg.me&host=ngepx.ambercc.filegear-sg.me#🆔ahwazigamingshop%20🔒%20TR-WS-N/A%20🇺🇸%20US%2035ms
+trojan://Aimer@162.159.38.101:2096?security=tls&type=tcp&sni=ngepo.ambercc.filegear-sg.me#🆔ahwazigamingshop%20🔒%20TR-TCP-N/A%20🇺🇸%20US%209ms
+trojan://Aimer@146.56.155.102:20003?security=tls&type=tcp&sni=ngepo.ambercc.filegear-sg.me#🆔ahwazigamingshop%20🔒%20TR-TCP-N/A%20🇰🇷%20KR%20143ms
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@157.241.91.146:443#🆔ahwazigamingshop%20🔒%20SS-TCP-TLS%20🇧🇭%20BH%20down
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRTzBOeW5hZ1ZURkR1M25VckZDU3p3@66.94.108.69:1100#🆔ahwazigamingshop%20🔒%20SS-TCP-TLS%20🇺🇸%20US%20down
 vmess://eyJwcyI6Ilx1ZDgzY1x1ZGQ5NGFyMTRuMjRiIFx1ZDgzZFx1ZGQxMiBWTS0tIFx1Mjc1NCBYWCBkb3duIn0=
