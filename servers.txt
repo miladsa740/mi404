@@ -1,6 +1,7 @@
+vless://ea286109-d20f-415e-849e-4af20ab04b65@135.148.152.103:443?security=tls&sni=147135001195.sec22org.com&type=tcp&alpn=h2%2Chttp%2F1.1#🇺🇸[openproxylist.com] vless-US
 vless://54694a33-a8dc-47dd-bc38-acd3971e0055@135.148.74.155:443?security=tls&sni=147135004002.sec20org.com&type=tcp#🇺🇸[openproxylist.com] vless-US
 vmess://eyJhZGQiOiI5YWY4NjJkNS1zeHN4czAtdGdsMDJ1LTFqcjF1LmhnYzEudGNwYmJyLm5ldCIsImFpZCI6MCwiaG9zdCI6IjlhZjg2MmQ1LXN4c3hzMC10Z2wwMnUtMWpyMXUuaGdjMS50Y3BiYnIubmV0IiwiaWQiOiIyYzAxZWFlNi0wYjZhLTExZWUtYTA1OC1mMjNjOTEzNjlmMmQiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOjgwODAsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiYnJvYWRjYXN0bHYuY2hhdC5iaWxpYmlsaS5jb20ifQ==
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@45.131.209.130:8443?security=tls&sni=ovhwuxian.pai50288.uk&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#🇹🇼[openproxylist.com] vless-TW
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@172.67.153.156:8443?security=tls&sni=ovhwuxian.pai50288.uk&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#🇹🇼[openproxylist.com] vless-TW
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#🇬🇧[openproxylist.com] ss-GB
 trojan://1a17b19d-4896-4531-af79-6e91d8ef8228@13.215.50.90:6668?allowInsecure=1&sni=baidu.com#🏳[openproxylist.com] trojan-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNLW5mZk80MEtsY2x3YkNYOUNWMURR@138.124.115.157:1080#🇩🇪[openproxylist.com] ss-DE
@@ -9,45 +10,44 @@ vmess://eyJhZGQiOiI2Ny4yMS43NS40MCIsImFpZCI6NjQsImhvc3QiOiJ3d3cuMzg1MzAyMjkueHl6
 vless://ea286109-d20f-415e-849e-4af20ab04b65@135.148.152.110:443?security=tls&sni=147135001197.sec22org.com&type=tcp&fp=chrome#🇺🇸[openproxylist.com] vless-US
 vless://54694a33-a8dc-47dd-bc38-acd3971e0055@135.148.74.157:443?security=tls&sni=147135004002.sec20org.com&type=tcp&allowInsecure=1#🇺🇸[openproxylist.com] vless-US
 vless://2f33cc6f-c80a-4c19-ac4f-66547bfdd33d@94.232.170.141:1501?security=none&type=tcp&host=varzesh3.com&headerType=http#🇹🇷[openproxylist.com] vless-TR
-vless://68fd2dc5-b1fc-49b0-8ff6-d070133ee270@104.16.53.11:2053?security=tls&sni=ah15.ai351.com&type=ws&host=ah15.ai351.com&path=/containers/de#🏳[openproxylist.com] vless-
+vless://68fd2dc5-b1fc-49b0-8ff6-d070133ee270@104.16.53.11:2053?security=tls&sni=ah15.ai351.com&type=ws&host=ah15.ai351.com&path=/containers/de#🇫🇮[openproxylist.com] vless-FI
 vless://18d8ce6f-a27c-461e-ada8-a7d0a97a023b@104.17.221.248:443?security=tls&sni=ad.oldcloud.online&type=ws&host=ad.oldcloud.online&path=%2F#🇦🇩[openproxylist.com] vless-AD
 vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.160.217:443?security=none&type=tcp&host=zula.ir&path=%2F&headerType=http#🇩🇪[openproxylist.com] vless-DE
-vless://5e251be5-4736-49ff-80cf-b41639949a4d@5.255.124.97:26066?security=none&type=ws&path=%2F#🏳[openproxylist.com] vless-
-vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.17.147.22:2087?security=tls&sni=smart.v2plusify.org&type=ws&host=smart.v2plusify.org&path=%2F#🇩🇪[openproxylist.com] vless-DE
+vless://5e251be5-4736-49ff-80cf-b41639949a4d@5.255.124.97:26066?security=none&type=ws&path=%2F#🇳🇱[openproxylist.com] vless-NL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@2.59.163.101:2222#🇵🇱[openproxylist.com] ss-PL
+vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.17.148.22:2087?security=tls&sni=smart.v2plusify.org&type=ws&host=smart.v2plusify.org&path=%2F#🇩🇪[openproxylist.com] vless-DE
+vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.107.193.169:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://a0a866bd-8c0c-464c-9b96-c6dafa154419@5.253.41.223:80?security=none&type=ws&path=/vless/#🇯🇵[openproxylist.com] vless-JP
+vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.160.145:443?security=none&type=tcp&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://af1c70ed-15cb-4f03-95eb-44383d227631@172.64.33.81:443?security=tls&sni=1yrcg4nx.shemrons.com&type=ws&host=1yrcg4nx.shemrons.com&path=%2Fwss&alpn=http%2F1.1#🇫🇮[openproxylist.com] vless-FI
 vless://14c8603b-f036-4ebe-800b-ce6add99cd50@154.17.225.73:443?security=tls&sni=usb.rtot.me&type=ws&host=usb.rtot.me&path=%2Fbing#🇺🇸[openproxylist.com] vless-US
 vless://b4473fe7-6e2e-441e-8b2e-a8baec8a5172@116.203.29.106:50424?security=none&type=tcp#🇩🇪[openproxylist.com] vless-DE
-vless://84e7d7ea-fbb8-4a62-b3c6-a22165a21bee@185.133.125.8:19151?security=none&type=tcp&host=soft98.ir&headerType=http#🇫🇷[openproxylist.com] vless-FR
 vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.182.117:443?security=none&type=tcp&host=zula.ir&headerType=http#🇮🇷[openproxylist.com] vless-IR
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.199.137:443?security=none&type=tcp&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http#🇮🇷[openproxylist.com] vless-IR
 vless://15398933-070d-4ea2-9697-5fcd79793c97@91.99.54.106:443?type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.151.199:443?type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
-vmess://eyJhZGQiOiI3OS4xNzUuMTMxLjUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNmRiYzNjYWRlZmVjNDk4YmJmYzhiNGRhOGQ4ZGMxNmMiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjUwMDYiLCJwcyI6Ilx1ZDgzY1x1ZGRlYlx1ZDgzY1x1ZGRlZVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtRkkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
+vmess://eyJhZGQiOiI3OS4xNzUuMTMxLjUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNmRiYzNjYWRlZmVjNDk4YmJmYzhiNGRhOGQ4ZGMxNmMiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjUwMDYiLCJwcyI6Ilx1ZDgzY1x1ZGZmM1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.14.202:443?security=none&type=tcp&host=zula.ir/?TELEGRAM@JOKERRVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vmess://eyJob3N0IjoidGVsZXdlYmlvbi5jb20iLCJpZCI6ImFiNjVlNjk0LWMwNDQtNDZjZi04MDJlLTMwMWRjOTk5OGM0MSIsInBhdGgiOiJcLyIsInNjeSI6ImF1dG8iLCJwb3J0IjoiNDgyNTIiLCJ0eXBlIjoiaHR0cCIsImFkZCI6IjkxLjk5LjE5MS4xMTAiLCJuZXQiOiJ0Y3AiLCJwcyI6Ilx1ZDgzY1x1ZGRlZVx1ZDgzY1x1ZGRmN1tvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtSVIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==
 vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.198.174:443?security=none&type=tcp&host=zula.ir%2F%3FTelegram%40MTMVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.160.151:443?security=none&type=tcp&host=zula.ir&headerType=http#🏳[openproxylist.com] vless-
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.169.206:443?security=none&type=tcp&host=zula.ir/?TELEGRAM@JOKERRVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
-vless://7f97131b-0d9d-4be9-b7b4-3fa21403cffa@94.156.116.5:443?security=reality&encryption=none&pbk=b2wRFAmT2Mm6a_EXPfWBu4BYw-wNGlXHWoO3lPqGoXw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=86#🇫🇮[openproxylist.com] vless-FI
+vless://7f97131b-0d9d-4be9-b7b4-3fa21403cffa@94.156.116.5:443?security=reality&encryption=none&pbk=b2wRFAmT2Mm6a_EXPfWBu4BYw-wNGlXHWoO3lPqGoXw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=86#🏳[openproxylist.com] vless-
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.83.138:443?security=none&type=tcp&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.205.10:443?security=none&type=tcp&host=zula.ir/?TELEGRAM@JOKERRVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://65951889-54af-453f-a7a1-55b91e5a5ad5@46.101.199.91:8080?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://2fc97eb0-d9d2-4567-99bf-bb5f64b5d5e9@45.63.60.98:12188?security=none&type=tcp#🇺🇸[openproxylist.com] vless-US
-vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.130.239:443?type=tcp&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http#🏳[openproxylist.com] vless-
-vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.160.90:443?security=none&type=tcp&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
+vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.130.239:443?security=none&type=tcp&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://55c065e4-3429-49bf-aea2-d05ff7dd6586@172.233.141.49:2321?type=tcp#🇺🇸[openproxylist.com] vless-US
 trojan://mZMgM1vKw5@85.255.9.247:1935?security=tls&sni=x1-czech-aruba-v2.devefun.org&type=tcp#🇨🇿[openproxylist.com] trojan-CZ
-vless://ac083fa9-df9a-4722-b70d-24c17bef0516@185.243.49.205:8444?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇺🇸[openproxylist.com] vless-US
+vless://ac083fa9-df9a-4722-b70d-24c17bef0516@185.243.49.205:8444?security=none&type=tcp&host=speedtest.net&headerType=http#🇺🇸[openproxylist.com] vless-US
+vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.139.18:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://0d6b5af6-17df-4bb1-af76-e524f00602a5@172.232.248.242:2321?type=tcp#🇮🇩[openproxylist.com] vless-ID
 vless://ed242313-b502-4a4a-97f4-336da621a837@45.12.134.217:80?type=ws&path=/vless/#🇯🇵[openproxylist.com] vless-JP
 vless://904f8ffa-4652-4076-8f2f-e586807840ec@172.111.146.64:80?type=ws&path=/vless/#🇯🇵[openproxylist.com] vless-JP
 vless://a4fb0780-e6d5-4e5e-b22d-d431db4aa53b@172.234.31.209:2321?type=tcp#🇺🇸[openproxylist.com] vless-US
 vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.171.12:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 trojan://vpn@45.82.14.144:2025?security=none&type=ws&host=dns.google.com&path=%2F#🇰🇿[openproxylist.com] trojan-KZ
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.230:51615?security=none&type=tcp&host=zula.ir&headerType=http#🇮🇷[openproxylist.com] vless-IR
-vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.195.73:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
-vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.122.102:443?security=none&type=tcp&host=zula.ir&headerType=http#🇩🇪[openproxylist.com] vless-DE
 vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#⚠️%20FREE%20TO%20USE!
 vless://aaacbbc-cbaa-aabc-dacb-acbacbbcaacb@127.0.0.1:1080?security=tls&type=tcp#🔄%20LATEST-UPDATE%20📅%20Sun-15-TIR-1404 🕑 03:22
 vmess://eyJhZGQiOiIxNTEuMTAxLjMuOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibG9naW4uc2luYWJhbmsuaXIiLCJpZCI6IjFmN2UyOTQ3LWM0YTUtNGUzYy1iMjg0LTc3N2ZmNzNhMDg2ZSIsIm5ldCI6InhodHRwIiwicGF0aCI6IlwvIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRkOTRhaHdhemlnYW1pbmdzaG9wIFx1ZDgzZFx1ZGQxMyBWTS1YSFRUUC1OXC9BIFx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOCBVUyAybXMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6ImF1dG8iLCJ2IjoiMiJ9
