@@ -2,7 +2,7 @@ import requests
 
 def fetch_servers():
     url1 = "https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt"
-    url2 = "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt"
+    url2 = "https://long-art-293d.nabarev274.workers.dev/sub/normal/d33268bd-0489-49ac-8074-4c5d07b80f4a#%F0%9F%92%A6%20BPB%20Normal"
     url3 = "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt" # اضافه کردن لینک سوم
 
     all_servers = []
