@@ -4,7 +4,7 @@ import base64
 def fetch_servers():
     url1 = "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt"
     url2 = "https://raw.githubusercontent.com/barry-far/V2ray-config/main/All_Configs_Sub.txt"
-    url3 = "https://fs.v2rayse.com/share/20250927/khj8oa2jaj.txt"  # لینک سوم (64 بیتی)
+    url3 = "https://winter-wind-90a7.nabarev274.workers.dev/sub/normal/QYI_bvOYCaA1hvom#%F0%9F%92%A6%20BPB%20Normal"  # لینک سوم (64 بیتی)
 
     all_servers = []
 
