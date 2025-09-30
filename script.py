@@ -2,7 +2,7 @@ import requests
 
 def fetch_servers():
     url1 = "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs"
-    url2 = "https://raw.githubusercontent.com/barry-far/V2ray-config/main/All_Configs_Sub.txt"
+    url2 = "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/1.txt"
     url3 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt" # اضافه کردن لینک سوم
 
     all_servers = []
