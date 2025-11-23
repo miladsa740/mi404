@@ -2,7 +2,7 @@ name: Update Servers
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # اجرا هر دو ساعت یک‌بار
+    - cron: "0 */12 * * *"  # اجرا هر دو ساعت یک‌بار
   workflow_dispatch: # اجرا به صورت دستی
 
 jobs:
@@ -24,10 +24,19 @@ jobs:
     - name: Run Python script
       run: python script.py
 
-    - name: Commit and Push changes
+    - name: Commit and Push changes (only if changed)
       run: |
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
+        
         git add servers.txt
-        git commit -m "Update servers"
-        git push
+        
+        # فقط اگر تغییری وجود داشته باشد commit و push انجام بده
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+          exit 0
+        else
+          echo "Changes detected, committing..."
+          git commit -m "Update servers"
+          git push
+        fi
