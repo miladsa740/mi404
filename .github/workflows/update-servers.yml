@@ -2,7 +2,7 @@ name: Update Servers
 
 on:
   schedule:
-    - cron: "0 */9 * * *"  # اجرا هر دو ساعت یک‌بار
+    - cron: "0 */2 * * *"  # اجرا هر دو ساعت یک‌بار
   workflow_dispatch: # اجرا به صورت دستی
 
 jobs:
