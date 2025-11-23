@@ -1,7 +1,7 @@
 import requests
 
 def fetch_servers():
-    url1 = "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs"
+    url1 = "https://raw.githubusercontent.com/code3-dev/code3-dev/refs/heads/main/warp-in-vless#Warp-in-VLESS"
     url2 = "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/1.txt"
     url3 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt" # اضافه کردن لینک سوم
 
@@ -13,7 +13,7 @@ def fetch_servers():
             response = requests.get(url, timeout=10)
             response.raise_for_status()  # اگر status code غیر از 200 باشه، خطا می‌ندازه
             print(f"✅ داده‌ها با موفقیت از {url_name} دریافت شدند.")
-            return response.text.strip().splitlines()[:50] # گرفتن 50 خط اول
+            return response.text.strip().splitlines()[:70] # گرفتن 50 خط اول
         except requests.RequestException as e:
             print(f"❌ خطا در دریافت داده از {url_name}:\n{e}")
             return []
