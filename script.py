@@ -13,7 +13,7 @@ def fetch_servers():
             response = requests.get(url, timeout=10)
             response.raise_for_status()  # اگر status code غیر از 200 باشه، خطا می‌ندازه
             print(f"✅ داده‌ها با موفقیت از {url_name} دریافت شدند.")
-            return response.text.strip().splitlines()[:70] # گرفتن 50 خط اول
+            return response.text.strip().splitlines()[:300] # گرفتن 50 خط اول
         except requests.RequestException as e:
             print(f"❌ خطا در دریافت داده از {url_name}:\n{e}")
             return []
