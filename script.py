@@ -1,7 +1,7 @@
 import requests
 
 def fetch_servers():
-    url1 = "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt"
+    url1 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
     url2 = "https://manager.farsonline24.ir"
     url3 = "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt" # اضافه کردن لینک سوم
 
