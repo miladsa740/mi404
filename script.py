@@ -3,17 +3,27 @@ import requests
 def fetch_servers():
     url1 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
     url2 = "https://manager.farsonline24.ir"
-    url3 = "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt" # اضافه کردن لینک سوم
+    url3 = "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt"
 
     all_servers = []
 
     # تابع کمکی برای دریافت داده از URL
-    def fetch_from_url(url, url_name):
+    def fetch_from_url(url, url_name, limit=None):
         try:
-            response = requests.get(url, timeout=10)
-            response.raise_for_status()  # اگر status code غیر از 200 باشه، خطا می‌ندازه
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+
             print(f"✅ داده‌ها با موفقیت از {url_name} دریافت شدند.")
-            return response.text.strip().splitlines()[:70] # گرفتن 50 خط اول
+
+            lines = response.text.strip().splitlines()
+
+            # اگر limit داده شده بود، محدود کن
+            if limit:
+                return lines[:limit]
+
+            # اگر limit نداشت → همه خطوط
+            return lines
+
         except requests.RequestException as e:
             print(f"❌ خطا در دریافت داده از {url_name}:\n{e}")
             return []
@@ -21,14 +31,16 @@ def fetch_servers():
             print(f"❌ خطایی در پردازش داده‌ها از {url_name} رخ داد:\n{e}")
             return []
 
-    # دریافت داده از هر سه لینک
+    # لینک اول → همه سرورها
     servers1 = fetch_from_url(url1, "url1")
-    servers2 = fetch_from_url(url2, "url2")
-    servers3 = fetch_from_url(url3, "url3") # دریافت داده از لینک سوم
+
+    # لینک دوم و سوم → محدود
+    servers2 = fetch_from_url(url2, "url2", limit=70)
+    servers3 = fetch_from_url(url3, "url3", limit=70)
 
     all_servers.extend(servers1)
     all_servers.extend(servers2)
-    all_servers.extend(servers3) # اضافه کردن سرورهای لینک سوم
+    all_servers.extend(servers3)
 
     if not all_servers:
         print("❗️ هیچ سروری دریافت نشد.")
