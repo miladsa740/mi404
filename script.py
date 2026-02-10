@@ -17,11 +17,11 @@ def fetch_servers():
 
             lines = response.text.strip().splitlines()
 
-            # اگر limit داده شده بود، محدود کن
-            if limit:
+            # اگر limit مشخص شده بود → محدود کن
+            if limit is not None:
                 return lines[:limit]
 
-            # اگر limit نداشت → همه خطوط
+            # در غیر اینصورت → همه
             return lines
 
         except requests.RequestException as e:
@@ -31,12 +31,12 @@ def fetch_servers():
             print(f"❌ خطایی در پردازش داده‌ها از {url_name} رخ داد:\n{e}")
             return []
 
-    # لینک اول → همه سرورها
+    # لینک اول → بدون محدودیت
     servers1 = fetch_from_url(url1, "url1")
 
-    # لینک دوم و سوم → محدود
-    servers2 = fetch_from_url(url2, "url2", limit=70)
-    servers3 = fetch_from_url(url3, "url3", limit=70)
+    # لینک دوم و سوم → هرکدوم 40 تا
+    servers2 = fetch_from_url(url2, "url2", limit=40)
+    servers3 = fetch_from_url(url3, "url3", limit=40)
 
     all_servers.extend(servers1)
     all_servers.extend(servers2)
