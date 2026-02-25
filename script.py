@@ -35,8 +35,8 @@ def fetch_servers():
     servers1 = fetch_from_url(url1, "url1")
 
     # لینک دوم و سوم → هرکدوم 40 تا
-    servers2 = fetch_from_url(url2, "url2", limit=40)
-    servers3 = fetch_from_url(url3, "url3", limit=40)
+    servers2 = fetch_from_url(url2, "url2", limit=10)
+    servers3 = fetch_from_url(url3, "url3", limit=10)
 
     all_servers.extend(servers1)
     all_servers.extend(servers2)
