@@ -2,8 +2,8 @@ import requests
 
 def fetch_servers():
     url1 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
-    url2 = "https://manager.farsonline24.ir"
-    url3 = "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt"
+    url2 = "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt"
+    url3 = "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_2.txt"
 
     all_servers = []
 
