@@ -10,7 +10,7 @@ from urllib3.util.retry import Retry
 URLS = [
     {
         "name": "blackbird",
-        "url": "https://m3cz1juspe5-f-hftapxrrs17zqppw11.salisa7474-9d1.workers.dev/sub/normal/G2z%3BZ9cHEZ1%24B.%26s#%F0%9F%92%A6%20BPB%20Normal",
+        "url": "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt",
         "limit": None
     },
     {
