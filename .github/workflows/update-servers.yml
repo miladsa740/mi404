@@ -2,41 +2,37 @@ name: Update Servers
 
 on:
   schedule:
-    - cron: "0 */06 * * *"  # اجرا هر دو ساعت یک‌بار
-  workflow_dispatch: # اجرا به صورت دستی
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-servers:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.x"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-    - name: Install dependencies
-      run: pip install requests
+      - run: pip install requests
 
-    - name: Run Python script
-      run: python script.py
+      - run: python script.py
 
-    - name: Commit and Push changes (only if changed)
-      run: |
-        git config --local user.name "GitHub Actions"
-        git config --local user.email "actions@github.com"
-        
-        git add servers.txt
-        
-        # فقط اگر تغییری وجود داشته باشد commit و push انجام بده
-        if git diff --cached --quiet; then
-          echo "No changes to commit"
-          exit 0
-        else
-          echo "Changes detected, committing..."
-          git commit -m "Update servers"
-          git push
-        fi
+      - name: Commit and Push
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update servers"
+            git push origin HEAD:main
+          fi
