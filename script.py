@@ -2,7 +2,7 @@ import requests
 
 def fetch_servers():
     url1 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
-    url2 = "https://raw.githubusercontent.com/TheConfigs/hcaptcha-configs/main/hcaptchaCONFIGS.txt"
+    url2 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/main/sublist1.txt"
     url3 = "*****"
 
     all_servers = []
