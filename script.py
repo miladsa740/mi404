@@ -1,7 +1,7 @@
 import requests
 
 def fetch_servers():
-    url1 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
+    url1 = "https://icy-bush-0435.coronaalaris2.workers.dev/sub?token=1ede1ce2357450c9a989cb4161c89579"
     url2 = "https://raw.githubusercontent.com/TheConfigs/hcaptcha-configs/main/hcaptchaCONFIGS.txt"
     url3 = "*****"
 
