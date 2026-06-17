@@ -3,7 +3,7 @@ import base64
 
 def fetch_servers():
     url1 = "https://msi.blkbmisa.dpdns.org/my-milisa?sub=blk.ms"
-    url2 = "https://raw.githubusercontent.com/TheConfigs/hcaptcha-configs/main/hcaptchaCONFIGS.txt"
+    url2 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/refs/heads/main/sublist2.txt"
     url3 = "****"
 
     all_servers = []
