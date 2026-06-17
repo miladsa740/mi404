@@ -3,7 +3,7 @@ import base64
 
 def fetch_servers():
     url1 = "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
-    url2 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/refs/heads/main/sublist2.txt"
+    url2 = "https://raw.githubusercontent.com/TheConfigs/hcaptcha-configs/main/hcaptchaCONFIGS.txt"
     url3 = "*****"
 
     all_servers = []
