@@ -170,3 +170,13 @@ trojan://humanity@104.18.152.133:443?path=%2Fassignment&security=tls&insecure=0&
 trojan://humanity@104.18.152.187:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#2—%20%40TheVPNMethod
 trojan://humanity@104.18.152.244:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#2—%20%40TheVPNMethod
 trojan://humanity@104.18.152.97:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#2—%20%40TheVPNMethod
+trojan://00000000-0000-0000-0000-000000000000@127.0.0.1:1080?encryption=none&security=none#%F0%9F%93%8A%20Used%3A%200.00%20GB%20%2F%20300.00%20GB
+trojan://00000000-0000-0000-0000-000000000000@127.0.0.1:1080?encryption=none&security=none#%F0%9F%93%85%20Expiry%3A%20Never%20Expire%20(Never%20Expire)
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@188.114.97.6:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@103.160.204.34:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@185.193.30.94:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@45.8.211.57:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@199.181.197.1:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@159.112.235.52:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@170.114.45.239:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
+vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@104.17.21.111:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
