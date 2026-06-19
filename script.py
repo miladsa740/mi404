@@ -4,7 +4,7 @@ import random
 
 def fetch_servers():
     url1 = "https://b1b.blkbmisa.dpdns.org/my-milisa?sub=blk.ms"
-    url2 = "https://withered-mouse-3cf1.softfirec60e.workers.dev/m1outlook?sub=m1u"
+    url2 = "https://n1m.novacell95.qzz.io/m1outlook?sub=m1u"
     url3 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/refs/heads/main/sublist2.txt"
 
     all_servers = []
