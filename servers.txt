@@ -1,4 +1,4 @@
-trojan://00000000-0000-0000-0000-000000000000@127.0.0.1:1080?encryption=none&security=none#%F0%9F%93%8A%20Used%3A%203.19%20GB%20%2F%20300.00%20GB
+trojan://00000000-0000-0000-0000-000000000000@127.0.0.1:1080?encryption=none&security=none#%F0%9F%93%8A%20Used%3A%203.75%20GB%20%2F%20300.00%20GB
 trojan://00000000-0000-0000-0000-000000000000@127.0.0.1:1080?encryption=none&security=none#%F0%9F%93%85%20Expiry%3A%20Never%20Expire%20(Never%20Expire)
 vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@188.114.97.6:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
 vless://f3dec55e-14c8-d083-2ac1-92e190a3f4e2@103.160.204.34:443?encryption=none&security=tls&sni=msi.blkbmisa.dpdns.org&fp=chrome&type=ws&host=msi.blkbmisa.dpdns.org&path=/my-milisa&allowInsecure=0#V-Core-443-blk.ms
