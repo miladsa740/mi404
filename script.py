@@ -3,7 +3,7 @@ import base64
 import random
 
 def fetch_servers():
-    url1 = "https://b1b.blkbmisa.dpdns.org/my-milisa?sub=blk.ms"
+    url1 = "https://b1b.blkbmisa.dpdns.org/my-milisa?sub=M7G5"
     url2 = "https://n1m.novacell95.qzz.io/m1outlook?sub=m1u"
     url3 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/refs/heads/main/sublist2.txt"
 
