@@ -51,7 +51,7 @@ def fetch_servers():
 
     # دریافت کانفیگ‌ها
     servers1 = fetch_from_url(url1, "url1")
-    servers2 = fetch_from_url(url2, "url2", limit=100)
+    servers2 = fetch_from_url(url2, "url2", limit=300)
     servers3 = fetch_from_url(url3, "url3", limit=50)
 
     # ادغام همه کانفیگ‌ها
