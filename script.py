@@ -4,7 +4,7 @@ import base64
 def fetch_servers():
     url1 = "https://b1b.blkbmisa.dpdns.org/my-milisa?sub=blk.ms"
     url2 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/refs/heads/main/sublist2.txt"
-    url3 = "****"
+    url3 = "https://nova-pixel-stack-2f9d.softfirec60e.workers.dev/sub?sub=milisa&key=7e7029d86e21&b64"
 
     all_servers = []
 
