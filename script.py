@@ -2,7 +2,7 @@ import requests
 import base64
 
 def fetch_servers():
-    url1 = "https://msi.blkbmisa.dpdns.org/my-milisa?sub=blk.ms"
+    url1 = "https://b1b.blkbmisa.dpdns.org/my-milisa?sub=blk.ms"
     url2 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/refs/heads/main/sublist2.txt"
     url3 = "****"
 
