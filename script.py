@@ -5,7 +5,7 @@ import random
 def fetch_servers():
     url1 = "https://b1b.blkbmisa.dpdns.org/my-milisa?sub=M7G5"
     url2 = "https://n1m.novacell95.qzz.io/m1outlook?sub=m1u"
-    url3 = "https://raw.githubusercontent.com/ThomasJasperthecat/sub/refs/heads/main/sublist2.txt"
+    url3 = "https://raw.githubusercontent.com/LimeHi/LimeVPN/main/LimeVPN.txt"
 
     all_servers = []
 
@@ -52,7 +52,7 @@ def fetch_servers():
     # دریافت کانفیگ‌ها
     servers1 = fetch_from_url(url1, "url1")
     servers2 = fetch_from_url(url2, "url2", limit=300)
-    servers3 = fetch_from_url(url3, "url3", limit=50)
+    servers3 = fetch_from_url(url3, "url3", limit=100)
 
     # ادغام همه کانفیگ‌ها
     all_servers.extend(servers1)
