@@ -7,6 +7,10 @@ def fetch_servers():
     url2 = "https://n1m.novacell95.qzz.io/m1outlook?sub=m1u"
     url3 = "https://raw.githubusercontent.com/LimeHi/LimeVPN/main/LimeVPN.txt"
 
+    # لینک‌های جدید را اینجا قرار بده
+    url4 = "https://raw.githubusercontent.com/LimeHi/LimeVPN/main/LimeVPN.txt"
+    url5 = "https://raw.githubusercontent.com/RKPchannel/RKP_bypass_configs/refs/heads/main/whitelist.txt"
+
     all_servers = []
 
     def fetch_from_url(url, url_name, limit=None):
@@ -31,7 +35,6 @@ def fetch_servers():
             except Exception:
                 lines = content.splitlines()
 
-            # حذف خطوط خالی
             lines = [line.strip() for line in lines if line.strip()]
 
             if limit is not None:
@@ -52,21 +55,25 @@ def fetch_servers():
     # دریافت کانفیگ‌ها
     servers1 = fetch_from_url(url1, "url1")
     servers2 = fetch_from_url(url2, "url2", limit=300)
-    servers3 = fetch_from_url(url3, "url3", limit=100)
+    servers3 = fetch_from_url(url3, "url3", limit=300)
+    servers4 = fetch_from_url(url4, "url4", limit=100)
+    servers5 = fetch_from_url(url5, "url5", limit=100)
 
     # ادغام همه کانفیگ‌ها
     all_servers.extend(servers1)
     all_servers.extend(servers2)
     all_servers.extend(servers3)
+    all_servers.extend(servers4)
+    all_servers.extend(servers5)
 
     if not all_servers:
         print("❗ هیچ سروری دریافت نشد.")
         return
 
-    # حذف کانفیگ‌های تکراری (اختیاری)
+    # حذف کانفیگ‌های تکراری
     all_servers = list(dict.fromkeys(all_servers))
 
-    # مخلوط کردن کامل
+    # مخلوط کردن کامل همه کانفیگ‌ها
     random.shuffle(all_servers)
 
     try:
@@ -76,7 +83,7 @@ def fetch_servers():
         print(f"✅ {len(all_servers)} سرور در servers.txt ذخیره شد.")
 
     except Exception as e:
-        print(f"❌ خطا در ذخیره فایل:")
+        print("❌ خطا در ذخیره فایل:")
         print(e)
 
 if __name__ == "__main__":
