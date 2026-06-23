@@ -1,4 +1,4 @@
-name: Build Servers + Mihomo YAML
+name: Update Servers
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  update-servers:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,47 +23,19 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run script (generate servers.txt)
+      - name: Run script
         run: python script.py
 
-      # =========================
-      # Install Subconverter manually
-      # =========================
-      - name: Install Subconverter
-        run: |
-          sudo apt update
-          sudo apt install -y git build-essential cmake libcurl4-openssl-dev libssl-dev zlib1g-dev
-
-          git clone https://github.com/tindy2013/subconverter.git
-          cd subconverter
-          mkdir build && cd build
-          cmake ..
-          make -j2
-
-      # =========================
-      # Convert to Mihomo YAML
-      # =========================
-      - name: Generate flclashmi.yaml
-        run: |
-          cd subconverter/build
-
-          ./subconverter \
-            -i "https://raw.githubusercontent.com/miladsa740/mi404/refs/heads/main/servers.txt" \
-            -o ../../flclashmi.yaml
-
-      # =========================
-      # Commit results
-      # =========================
       - name: Commit and Push
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
 
-          git add servers.txt flclashmi.yaml
+          git add servers.txt flclashmi.txt
 
           if git diff --cached --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
-            git commit -m "Update servers + Mihomo YAML"
+            git commit -m "Update servers"
             git push origin HEAD:main
           fi
