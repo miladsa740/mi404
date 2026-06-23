@@ -15,27 +15,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
-        run: pip install requests
+      # اضافه شدن pyyaml برای پشتیبانی از خروجی YAML
+      - run: pip install requests pyyaml
 
-      - name: Run script
-        run: python script.py
+      - run: python script.py
 
       - name: Commit and Push
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
 
-          git add servers.txt flclashmi.txt
+          git add .
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update servers"
+            git commit -m "Update servers to YAML format"
             git push origin HEAD:main
           fi
