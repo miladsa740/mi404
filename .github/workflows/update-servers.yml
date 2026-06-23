@@ -32,7 +32,12 @@ jobs:
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           
-          git add servers.txt config.yaml
+          git add servers.txt
+          
+          # فقط اگر config.yaml وجود داشته باشد اضافه کن
+          if [ -f "config.yaml" ]; then
+            git add config.yaml
+          fi
           
           if git diff --cached --quiet; then
             echo "No changes to commit"
