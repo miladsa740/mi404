@@ -1,9 +1,9 @@
-name: Update Servers
+name: Update Servers & Clash Config
 
 on:
   schedule:
     - cron: "0 */3 * * *"   # هر ۳ ساعت
-  workflow_dispatch:        # امکان اجرای دستی
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -24,7 +24,7 @@ jobs:
       - name: Install Dependencies
         run: pip install requests
 
-      - name: Run Python Script
+      - name: Run Python Script (Fetch + Generate Config)
         run: python script.py
 
       - name: Commit and Push Changes
@@ -32,11 +32,11 @@ jobs:
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           
-          git add servers.txt
+          git add servers.txt config.yaml
           
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update servers - $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "Update servers & Clash config - $(date '+%Y-%m-%d %H:%M:%S')"
             git push origin HEAD:main
           fi
