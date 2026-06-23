@@ -2,7 +2,7 @@ name: Update Servers & Clash Config
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # هر ۳ ساعت
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
       - name: Install Dependencies
         run: pip install requests
 
-      - name: Run Python Script (Fetch + Generate Config)
+      - name: Run Python Script
         run: python script.py
 
       - name: Commit and Push Changes
