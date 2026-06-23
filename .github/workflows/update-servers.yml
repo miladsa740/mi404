@@ -20,25 +20,39 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
       - name: Run script (generate servers.txt)
         run: python script.py
 
       # =========================
-      # Convert using Subconverter (Docker)
+      # Install Subconverter manually
       # =========================
-      - name: Convert to Mihomo YAML
+      - name: Install Subconverter
         run: |
-          docker run --rm \
-            -v $PWD:/data \
-            ghcr.io/tindy2013/subconverter:latest \
-            -i "https://raw.githubusercontent.com/miladsa740/mi404/refs/heads/main/servers.txt" \
-            -o /data/flclashmi.yaml
+          sudo apt update
+          sudo apt install -y git build-essential cmake libcurl4-openssl-dev libssl-dev zlib1g-dev
+
+          git clone https://github.com/tindy2013/subconverter.git
+          cd subconverter
+          mkdir build && cd build
+          cmake ..
+          make -j2
 
       # =========================
-      # Commit
+      # Convert to Mihomo YAML
+      # =========================
+      - name: Generate flclashmi.yaml
+        run: |
+          cd subconverter/build
+
+          ./subconverter \
+            -i "https://raw.githubusercontent.com/miladsa740/mi404/refs/heads/main/servers.txt" \
+            -o ../../flclashmi.yaml
+
+      # =========================
+      # Commit results
       # =========================
       - name: Commit and Push
         run: |
