@@ -1,4 +1,4 @@
-name: Update Servers
+name: Build Servers + SubConv Mihomo
 
 on:
   schedule:
@@ -9,30 +9,53 @@ permissions:
   contents: write
 
 jobs:
-  update-servers:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-      - run: python script.py
+      - name: Run script (generate servers.txt)
+        run: python script.py
 
+      # =========================
+      # 🔥 Download SubConv
+      # =========================
+      - name: Download SubConv
+        run: |
+          curl -L -o subconv https://github.com/SubConv/SubConv/releases/latest/download/subconv-linux-amd64
+          chmod +x subconv
+
+      # =========================
+      # 🔥 Convert to Mihomo YAML
+      # =========================
+      - name: Generate flclashmi.yaml
+        run: |
+          ./subconv -g \
+            -i https://raw.githubusercontent.com/miladsa740/mi404/refs/heads/main/servers.txt \
+            -o flclashmi.yaml
+
+      # =========================
+      # Commit & Push
+      # =========================
       - name: Commit and Push
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
 
-          git add .
+          git add servers.txt flclashmi.yaml
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update servers"
+            git commit -m "Update servers + Mihomo config"
             git push origin HEAD:main
           fi
