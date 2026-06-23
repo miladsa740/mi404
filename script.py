@@ -9,7 +9,6 @@ def fetch_servers():
         "https://n1m.novacell95.qzz.io/m1outlook?sub=m1u",
         "https://raw.githubusercontent.com/LimeHi/LimeVPN/main/LimeVPN.txt",
         "https://raw.githubusercontent.com/RKPchannel/RKP_bypass_configs/refs/heads/main/whitelist.txt",
-        # لینک جدید اضافه کنید
     ]
 
     print(f"🚀 شروع به‌روزرسانی - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -25,7 +24,6 @@ def fetch_servers():
         except Exception as e:
             print(f"❌ خطا در لینک {idx}: {e}")
 
-    # حذف تکراری و شافل
     all_lines = list(dict.fromkeys(all_lines))
     random.shuffle(all_lines)
 
@@ -34,17 +32,16 @@ def fetch_servers():
 
     print(f"🎉 {len(all_lines)} سرور یکتا ذخیره شد.")
 
-    # === تولید config.yaml با Subconverter ===
+    # تولید config.yaml
     generate_clash_config(urls)
 
 def generate_clash_config(sub_urls):
-    # لینک ترکیبی
     combined = "|".join(sub_urls)
     encoded_url = urllib.parse.quote(combined)
 
-    # یکی ازインスタンス‌های پایدار Subconverter
+    # backend جدید و پایدار (sub.dler.io)
     subconverter_url = (
-        f"https://subconverter.exi.software/sub"
+        f"https://sub.dler.io/sub"
         f"?target=clash"
         f"&url={encoded_url}"
         f"&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
@@ -55,24 +52,26 @@ def generate_clash_config(sub_urls):
         f"&fdn=false"
         f"&sort=false"
         f"&new_name=true"
+        f"&insert=false"
     )
 
     try:
-        print("🔄 در حال تبدیل با Subconverter...")
-        response = requests.get(subconverter_url, timeout=60)
+        print("🔄 در حال تبدیل با sub.dler.io ...")
+        response = requests.get(subconverter_url, timeout=90)  # تایم‌اوت بیشتر
         response.raise_for_status()
 
-        # ذخیره config.yaml
+        if len(response.text) < 500:
+            raise Exception("پاسخ خیلی کوچک (احتمال خطا)")
+
         with open("config.yaml", "w", encoding="utf-8") as f:
             f.write(response.text)
 
-        print("✅ config.yaml با موفقیت تولید و ذخیره شد!")
-        print(f"   تعداد پروکسی تقریبی: {len([line for line in response.text.splitlines() if '- name:' in line])}")
-
+        proxy_count = len([line for line in response.text.splitlines() if line.strip().startswith("- name:")])
+        print(f"✅ config.yaml با موفقیت ساخته شد! (~{proxy_count} پروکسی)")
+        
     except Exception as e:
         print(f"❌ خطا در تولید config.yaml: {e}")
-        # fallback: فقط servers.txt
-        print("⚠️ فقط servers.txt ذخیره شد.")
+        print("⚠️ فقط servers.txt ذخیره شد. بعداً دستی با Subconverter تست کنید.")
 
 if __name__ == "__main__":
     fetch_servers()
