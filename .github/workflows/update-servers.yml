@@ -1,4 +1,4 @@
-name: Build Servers + SubConv Mihomo
+name: Build Servers + Mihomo YAML
 
 on:
   schedule:
@@ -20,31 +20,25 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
+      - name: Install requests
         run: pip install requests
 
       - name: Run script (generate servers.txt)
         run: python script.py
 
       # =========================
-      # 🔥 Download SubConv
+      # Convert using Subconverter (Docker)
       # =========================
-      - name: Download SubConv
+      - name: Convert to Mihomo YAML
         run: |
-          curl -L -o subconv https://github.com/SubConv/SubConv/releases/latest/download/subconv-linux-amd64
-          chmod +x subconv
+          docker run --rm \
+            -v $PWD:/data \
+            ghcr.io/tindy2013/subconverter:latest \
+            -i "https://raw.githubusercontent.com/miladsa740/mi404/refs/heads/main/servers.txt" \
+            -o /data/flclashmi.yaml
 
       # =========================
-      # 🔥 Convert to Mihomo YAML
-      # =========================
-      - name: Generate flclashmi.yaml
-        run: |
-          ./subconv -g \
-            -i https://raw.githubusercontent.com/miladsa740/mi404/refs/heads/main/servers.txt \
-            -o flclashmi.yaml
-
-      # =========================
-      # Commit & Push
+      # Commit
       # =========================
       - name: Commit and Push
         run: |
@@ -54,8 +48,8 @@ jobs:
           git add servers.txt flclashmi.yaml
 
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
-            git commit -m "Update servers + Mihomo config"
+            git commit -m "Update servers + Mihomo YAML"
             git push origin HEAD:main
           fi
