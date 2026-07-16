@@ -8,7 +8,7 @@ def fetch_servers():
     urls = [
         "https://mi7540.blkbmisa.dpdns.org/my-milisa?sub=mi7540",
         "https://n1m.novacell95.qzz.io/m1outlook?sub=m1u",
-        "******",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
         "https://raw.githubusercontent.com/justVisiting992/xray-Config-Collector/main/vless_iran.txt",
         "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
     ]
@@ -17,7 +17,7 @@ def fetch_servers():
     limits = [
         None,  # لینک اول
         300,   # لینک دوم
-        200,   # لینک سوم
+        100,   # لینک سوم
         100,   # لینک چهارم
         100    # لینک پنجم
     ]
