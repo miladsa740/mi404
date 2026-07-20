@@ -6,7 +6,7 @@ import random
 def fetch_servers():
 
     urls = [
-        "https://mi7540.blkbmisa.dpdns.org/my-milisa?sub=mi7540",
+        "https://morning-rain-8b5d.novinex20.workers.dev/my-milisa?sub=mi7540",
         "https://n1m.novacell95.qzz.io/m1outlook?sub=m1u",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
         "https://raw.githubusercontent.com/justVisiting992/xray-Config-Collector/main/vless_iran.txt",
