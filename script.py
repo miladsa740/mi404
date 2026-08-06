@@ -6,7 +6,7 @@ import random
 def fetch_servers():
 
     urls = [
-        "https://nahan-core.novinex20.workers.dev/mi745?sub=mi745",
+        "https://holy-recipe-161c.novinex20.workers.dev/sub?token=08d728ba23b82f4a6fb8011ecab910a0",
         "https://withered-mouse-3cf1.softfirec60e.workers.dev/m1outlook?sub=m1u",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
         "https://raw.githubusercontent.com/justVisiting992/xray-Config-Collector/main/vless_iran.txt",
