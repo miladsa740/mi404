@@ -6,17 +6,17 @@ import random
 def fetch_servers():
 
     urls = [
-        "https://holy-recipe-161c.novinex20.workers.dev/sub?token=08d728ba23b82f4a6fb8011ecab910a0",
-        "https://withered-mouse-3cf1.softfirec60e.workers.dev/m1outlook?sub=m1u",
+        "*******",
+        "https://raw.githubusercontent.com/RKPchannel/RKP_bypass_configs/refs/heads/main/whitelist.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-        "https://raw.githubusercontent.com/justVisiting992/xray-Config-Collector/main/vless_iran.txt",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
         "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
     ]
 
     # None یعنی بدون محدودیت
     limits = [
         None,  # لینک اول
-        300,   # لینک دوم
+        70,   # لینک دوم
         70,   # لینک سوم
         70,   # لینک چهارم
         70    # لینک پنجم
