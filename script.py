@@ -9,7 +9,7 @@ def fetch_servers():
         "*******",
         "https://raw.githubusercontent.com/RKPchannel/RKP_bypass_configs/refs/heads/main/whitelist.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+        "****",
         "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
     ]
 
