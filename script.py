@@ -7,10 +7,10 @@ def fetch_servers():
 
     urls = [
         "*******",
-        "https://raw.githubusercontent.com/RKPchannel/RKP_bypass_configs/refs/heads/main/whitelist.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+        "https://raw.githubusercontent.com/justVisiting992/xray-Config-Collector/main/vless_iran.txt",
+        "https://raw.githubusercontent.com/justVisiting992/xray-Config-Collector/main/vmess_iran.txt",
         "****",
-        "https://raw.githubusercontent.com/miladsa740/blackbird/refs/heads/main/config.txt"
+        "https://raw.githubusercontent.com/sinavm/SVM/main/subscriptions/xray/normal/mix"
     ]
 
     # None یعنی بدون محدودیت
